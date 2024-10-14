@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import { Button, Card } from 'antd';
+import axios from 'axios';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+// import RowForm from './components/RowForm';
+import SiderComp from '../src/components/Sider';
+import SetForm from './components/RowForm';
+import Header from './components/AddUser';
+import Navbar from './components/Navbar';
+import Dashboard from './components/Dashboard/Dashboard';
+import AddUser from './components/AddUser';
 
 function App() {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    axios.get('https://jsonplaceholder.typicode.com/posts/1')
+      .then(response => setData(response.data))
+      .catch(error => console.error(error));
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Navbar />
+      <Routes>
+        {/* <Route path="/" element={<SiderComp />} /> */}
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/add" element={<AddUser />} />
+      </Routes>
     </div>
   );
 }
