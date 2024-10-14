@@ -50,6 +50,7 @@ function CustomCarousel() {
             <Carousel
                 arrows
                 infinite
+                autoplay
                 slidesToShow={slidesToShow} // Dynamically set slides based on screen width
                 style={{ margin: 'auto', maxWidth: 1000, width: "auto" }}
             >
@@ -62,7 +63,7 @@ function CustomCarousel() {
                                 cover={
                                     <Image
                                         preview={false}
-                                        style={{ borderRadius: 10, overflow: 'hidden', maxHeight: 280 }}
+                                        style={{ borderRadius: 10, overflow: 'hidden', maxHeight: 260 }}
                                         src={emp.img}
                                         alt={`${emp.name}'s profile`}
                                     />

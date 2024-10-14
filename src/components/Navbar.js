@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { Menu, Button, Avatar } from 'antd';
+import { Menu, Button, Avatar, Image } from 'antd';
 import { MenuOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
+import srp from '../assets/logo.png'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,12 @@ const Navbar = () => {
                 <div className="flex justify-between items-center h-16">
                     <div className="hidden md:flex items-center space-x-6">
                         <div className="flex-shrink-0">
-                            <h1 className="text-2xl font-bold">MyLogo</h1>
+                            <Link to="/" className="hover:text-gray-400">
+                                <Image preview={false} style={{ maxWidth: 200 }}
+                                    className="rounded-lg border border-gray-500 shadow-lg"
+                                    height={40}
+                                    width={'auto'} src={srp} />
+                            </Link>
                         </div>
                         <Link to="/" className="hover:text-gray-400">Dashboard</Link>
                         <Link to="/add" className="hover:text-gray-400">Add User</Link>

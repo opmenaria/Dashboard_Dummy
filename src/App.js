@@ -23,8 +23,8 @@ function App() {
     <div >
       <Navbar />
       <Routes>
-        {/* <Route path="/" element={<SiderComp />} /> */}
         <Route path="/" element={<Dashboard />} />
+        <Route path="/Dashboard_Dummy" element={<Dashboard />} />
         <Route path="/add" element={<AddUser />} />
       </Routes>
     </div>
