@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Dashboard_Dummy/static/css/main.010bb18e.css",
+    "main.js": "/Dashboard_Dummy/static/js/main.2c179056.js",
+    "static/js/453.b39c5d55.chunk.js": "/Dashboard_Dummy/static/js/453.b39c5d55.chunk.js",
+    "static/media/card5.png": "/Dashboard_Dummy/static/media/card5.ce6cb9683fe147c295aa.png",
+    "static/media/baner.jpg": "/Dashboard_Dummy/static/media/baner.44df0e231e5e7d1c727d.jpg",
+    "static/media/surps.png": "/Dashboard_Dummy/static/media/surps.e78ce88ce7ef7d4c1320.png",
+    "static/media/modl5.jpg": "/Dashboard_Dummy/static/media/modl5.48417d2d59df64c66aa1.jpg",
+    "static/media/detail.png": "/Dashboard_Dummy/static/media/detail.db9f9133f096bcc11532.png",
+    "static/media/modl2.jpg": "/Dashboard_Dummy/static/media/modl2.f3ac9ca5ff894cc1c742.jpg",
+    "static/media/modl6.jpg": "/Dashboard_Dummy/static/media/modl6.1f7d5e84822ab9f0dfcb.jpg",
+    "static/media/modl1.jpg": "/Dashboard_Dummy/static/media/modl1.d3467f5bff445b643538.jpg",
+    "static/media/modl3.jpg": "/Dashboard_Dummy/static/media/modl3.07cda0b1e5dbdafd758b.jpg",
+    "static/media/card6.png": "/Dashboard_Dummy/static/media/card6.310fee4f3ce90ec9bfae.png",
+    "static/media/card1.jpg": "/Dashboard_Dummy/static/media/card1.ca55a691bb9f2b540508.jpg",
+    "static/media/card4.png": "/Dashboard_Dummy/static/media/card4.595e5fbd9ad9211633fb.png",
+    "static/media/card3.jpg": "/Dashboard_Dummy/static/media/card3.1dfdc890d36055b14c0d.jpg",
+    "static/media/card2.jpg": "/Dashboard_Dummy/static/media/card2.fbafea483aa8028f7426.jpg",
+    "index.html": "/Dashboard_Dummy/index.html",
+    "main.010bb18e.css.map": "/Dashboard_Dummy/static/css/main.010bb18e.css.map",
+    "main.2c179056.js.map": "/Dashboard_Dummy/static/js/main.2c179056.js.map",
+    "453.b39c5d55.chunk.js.map": "/Dashboard_Dummy/static/js/453.b39c5d55.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.010bb18e.css",
+    "static/js/main.2c179056.js"
+  ]
+}
